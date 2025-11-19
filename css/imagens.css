@@ -1,0 +1,28 @@
+        body {
+            color: #fff;
+        }
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 50px;
+        }
+        .galeria img {
+            width: 70%;
+            border-radius: 10px;
+            background: #111;
+            padding: 0.3px;
+            border: 2px solid #333;
+        }
+        .item {
+            text-align: center;
+        }
+        .item p {
+            margin-top: 8px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }

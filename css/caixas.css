@@ -1,0 +1,87 @@
+/* ESTILO CAIXA */
+
+.box {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px 35px;
+    background: linear-gradient(145deg, #2a2728 0%, #1b191a 100%);
+    border-radius: 12px;
+    border: 1px solid #5a2505; /* borda ferrugem */
+    box-shadow: 
+        inset 0 0 10px rgba(183, 65, 14, 0.15),
+        0 0 25px rgba(0, 0, 0, 0.6);
+    color: #eaeaea;
+    text-align: left;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* efeito leve de “iluminação” ao passar o mouse */
+.box:hover {
+    box-shadow: 
+        inset 0 0 20px rgba(183, 65, 14, 0.25),
+        0 0 40px rgba(183, 65, 14, 0.3);
+    transform: scale(1.01);
+}
+
+/* Título da box */
+h3 {
+    font-family: 'KustomCulture-Regular';
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(183, 65, 14, 0.5);
+    margin-top: 0;
+    border-bottom: 2px solid #b7410e;
+    padding-bottom: 8px;
+}
+
+/* Imagem em caixa */
+
+.img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  object-fit: fill;
+  margin: 10px;
+  flex-shrink: 0;
+  box-shadow: none !important;
+  filter: none !important;
+
+  
+}
+
+.box-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-row .img {
+    width: 110px;
+    height: 110px;
+}
+
+.box-row .box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* Links */
+a {
+    color: #ff914d;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #b7410e;
+}
+
+a:visited {
+    color: #d8d8d8;
+}
